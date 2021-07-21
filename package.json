@@ -27,7 +27,7 @@
     "nodemon": "^2.0.7",
     "opusscript": "0.0.8",
     "parse-time": "^0.1.4",
-    "ytdl-core": "^4.8.2",
+    "ytdl-core": "^4.9.0",
     "ytsr": "^3.5.0"
   }
 }
