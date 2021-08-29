@@ -74,7 +74,13 @@ function throwError(reason, origin) {
 /////Constants
 const client = new Discord.Client();
 const booru = new Danbooru();
-const token = require('./Configs/settings.json').token;
+let token;
+try {
+  token = require('./Configs/settings.json').token;
+} catch(e) {
+  console.log(chalk.red(`Erro ao retribuir token \n ${e}`))
+  return;
+}
 const version = require('./package.json').version;
 const name = require('./package.json').name;
 const author = require('./package.json').author;
@@ -142,10 +148,14 @@ client.on('guildCreate', guild => {
 /////Help command
 client.commands = new Discord.Collection();
 
+
 let rawcmIndex = fs.readFileSync('./commandIndex.json')
 let cmIndex = JSON.parse(rawcmIndex);
 let cmJsonLen = Object.keys(cmIndex.commands).length
 let cmdArray = []
+
+const indexer = require('./command_indexer')
+indexer.comindex()
 
 function setCollection(files) {
   let jsfile = files.filter(f => f.split('.').pop() === 'js')

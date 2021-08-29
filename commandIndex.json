@@ -56,11 +56,6 @@
       "pLevel": "0"
     },
     {
-      "file": "say.js",
-      "call": "template",
-      "pLevel": "2"
-    },
-    {
       "file": "skip.js",
       "call": "skip",
       "pLevel": "0"
@@ -69,11 +64,6 @@
       "file": "stop.js",
       "call": "stop",
       "pLevel": "0"
-    },
-    {
-      "file": "Test.js",
-      "call": "test",
-      "pLevel": "2"
     }
   ]
 }
