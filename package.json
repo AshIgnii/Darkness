@@ -20,7 +20,7 @@
     "ffmpeg-static": "^4.3.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
-    "giphy-api": "^2.0.1",
+    "giphy-api": "^2.0.2",
     "lzma-native": "^8.0.1",
     "m3u8stream": "^0.8.4",
     "node-pre-gyp": "^0.17.0",
