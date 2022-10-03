@@ -13,21 +13,21 @@
   "license": "MIT",
   "dependencies": {
     "all": "0.0.0",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.1",
     "danbooru": "^3.1.0",
     "discord.js": "^13.3.1",
     "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.4.0",
+    "ffmpeg-static": "^5.1.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "giphy-api": "^2.0.2",
-    "lzma-native": "^8.0.1",
-    "m3u8stream": "^0.8.4",
+    "lzma-native": "^8.0.6",
+    "m3u8stream": "^0.8.6",
     "node-pre-gyp": "^0.17.0",
     "nodemon": "^2.0.15",
     "opusscript": "0.0.8",
     "parse-time": "^0.1.4",
-    "ytdl-core": "^4.9.1",
+    "ytdl-core": "^4.11.2",
     "ytsr": "^3.5.3"
   }
 }
