@@ -24,7 +24,7 @@
     "lzma-native": "^8.0.1",
     "m3u8stream": "^0.8.6",
     "node-pre-gyp": "^0.17.0",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.20",
     "opusscript": "0.0.8",
     "parse-time": "^0.1.4",
     "ytdl-core": "^4.11.2",
