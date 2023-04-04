@@ -86,7 +86,7 @@ const name = require('./package.json').name;
 const author = require('./package.json').author;
 const functions = null;
 const queue = new Map();
-const homeServer = 474749720238227458;
+const homeServer = null;
 /////
 
 /////Configs
