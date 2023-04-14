@@ -28,6 +28,6 @@
     "opusscript": "0.0.8",
     "parse-time": "^0.1.4",
     "ytdl-core": "^4.11.2",
-    "ytsr": "^3.5.3"
+    "ytsr": "^3.8.2"
   }
 }
